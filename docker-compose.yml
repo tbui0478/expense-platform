@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: expense-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: expense_platform
+      POSTGRES_USER: expense_user
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
