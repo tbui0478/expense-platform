@@ -242,16 +242,6 @@ body {
   overflow: hidden;
 }
 
-.kpi-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, transparent, var(--card-accent, var(--primary)), transparent);
-  opacity: 0.9;
-}
 
 .kpi-header {
   display: flex;
