@@ -10,26 +10,26 @@
 
 ---
 
-## 🌟 Overview
+## Overview
 
 **Expense Platform** is a full-stack financial dashboard designed to streamline personal finance management. Built with a sleek dark-mode glassmorphic interface, it equips users with real-time financial health scoring, category spending breakdowns, active budget monitoring, subscription detection, and intelligent savings projections.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- 🔐 **User Authentication**: Built-in user registration and login workflows with session persistence.
-- 📊 **Real-time KPI Dashboard**: Live tracking of Net Income, Total Expenses, Budget Utilization, and Financial Health Score.
-- 📈 **Category Spending Analytics**: Visual interactive chart breakdowns powered by Chart.js.
-- 💳 **Transaction Management**: Add and remove income/expense transactions with instant dashboard updates.
-- 🎯 **Budget Progress Tracker**: Visual progress indicators per category with overspending alerts.
-- 🔄 **Subscriptions Watchdog**: Automated tracking and toggling of recurring monthly subscriptions.
-- 💡 **Savings & Investment Simulator**: Interactive compound growth calculator to model future net worth targets.
-- 🌍 **Multi-Currency Support**: On-the-fly currency conversion for USD ($), EUR (€), GBP (£), and JPY (¥).
+- **User Authentication**: Built-in user registration and login workflows with session persistence.
+- **Real-time KPI Dashboard**: Live tracking of Net Income, Total Expenses, Budget Utilization, and Financial Health Score.
+- **Category Spending Analytics**: Visual interactive chart breakdowns powered by Chart.js.
+- **Transaction Management**: Add and remove income/expense transactions with instant dashboard updates.
+- **Budget Progress Tracker**: Visual progress indicators per category with overspending alerts.
+- **Subscriptions Watchdog**: Automated tracking and toggling of recurring monthly subscriptions.
+- **Savings & Investment Simulator**: Interactive compound growth calculator to model future net worth targets.
+- **Multi-Currency Support**: On-the-fly currency conversion for USD ($), EUR (€), GBP (£), and JPY (¥).
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### **Backend**
 - **Java 17** & **Spring Boot 4**
@@ -50,7 +50,7 @@
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 expense-platform/
@@ -69,7 +69,7 @@ expense-platform/
 
 ---
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### **Prerequisites**
 Make sure you have the following installed on your system:
@@ -78,7 +78,7 @@ Make sure you have the following installed on your system:
 
 ---
 
-### 1️⃣ Run Backend (Spring Boot)
+### Run Backend (Spring Boot)
 
 Open a terminal window and execute:
 
@@ -95,7 +95,7 @@ cd backend
 
 ---
 
-### 2️⃣ Run Frontend (React / Vite)
+### Run Frontend (React / Vite)
 
 Open a **second terminal window** and execute:
 
@@ -114,7 +114,7 @@ npm run dev
 
 ---
 
-### 3️⃣ Optional: Docker Setup (PostgreSQL)
+### Optional: Docker Setup (PostgreSQL)
 
 If you prefer to run PostgreSQL instead of the default in-memory H2 database:
 
@@ -124,7 +124,7 @@ docker-compose up -d
 
 ---
 
-## 🔌 API Endpoints Summary
+## API Endpoints Summary
 
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
@@ -137,12 +137,12 @@ docker-compose up -d
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-## 👤 Author
+## Author
 
 **Trinh Bui**
